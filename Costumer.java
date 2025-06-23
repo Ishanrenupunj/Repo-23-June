@@ -22,4 +22,19 @@ public long getPhone(){
 public void setPhone(long phone){
     this.phone=phone;
 }
+public Costumer(int costid,String name){
+    this.costid=costid;
+    this.name=name;
+}
+public Costumer(int costid,String name,String address){
+    this.costid=costid;
+    this.name=name;
+    this.address=address;
+}
+public Costumer(int costid,String name,String address,long phone){
+    this.costid=costid;
+    this.name=name;
+    this.address=address;
+    this.phone=phone;
+}
 }
