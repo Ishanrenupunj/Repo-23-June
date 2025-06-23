@@ -21,7 +21,19 @@ public class Product{
     public void setQuantity(int quantity){
         this.quantity=quantity;
     }
-    public Product(int itemno,String name){}
-    public Product(int itemno,String name,double price){}
-    public Product(int itemno,String name,double price,int quantity){}
+    public Product(int itemno,String name){
+        this.itemno=itemno;
+        this.name=name;
+    }
+    public Product(int itemno,String name,double price){
+                this.itemno=itemno;
+                this.name=name;
+                this.price=price;
+    }
+    public Product(int itemno,String name,double price,int quantity){
+                this.itemno=itemno;
+                this.name=name;
+                this.price=price;
+                this.quantity=quantity;
+    }
 }
